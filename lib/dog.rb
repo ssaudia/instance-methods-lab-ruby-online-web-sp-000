@@ -1,8 +1,9 @@
-class Dog  # define our class
-
-end
 class Dog
-  def bark  # define our instance method
-    puts 'Woof!'
+  def bark
+    puts "Woof!"
+  end
+  def sit
+    puts "The Dog is sitting"
   end
 end
+
