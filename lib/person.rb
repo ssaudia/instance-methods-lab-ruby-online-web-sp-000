@@ -1,5 +1,10 @@
-class Person  # starts defining our Person class
-  def talk  # start defining our #talk method
-    puts "Hello World!"  # prints out 'Hello World!' to the output
-  end  # closes out our definition of the #talk method. Super important.
-end  # closes out our definition of the Person class. Also super important.
+class Person
+  def talk
+    puts "Hello World!"
+  end
+  def walk
+    puts "The Person is walking"
+  end
+
+
+end
